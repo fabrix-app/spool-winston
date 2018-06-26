@@ -1,5 +1,5 @@
 import { Spool } from '@fabrix/fabrix/dist/common'
-import { Logger } from 'winston'
+import * as winston from 'winston'
 
 import * as config from './config/index'
 import * as pkg from '../package.json'
@@ -25,7 +25,7 @@ export class WinstonSpool extends Spool {
     })
 
     app.once('fabrix:constructed', () => {
-      this.logger = new Logger(this.app.config.get('log'))
+      this.logger = winston.createLogger(this.app.config.get('log'))
       this.bindEvents()
     })
   }
