@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-describe('Trailspool', () => {
+describe('Spool', () => {
   let spool
   before(() => {
     spool = global.app.spools.winston
