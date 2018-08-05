@@ -2,7 +2,7 @@ const winston = require('winston')
 
 module.exports = {
   pkg: {
-    name: require('../package').name + '-test'
+    name: require('../../package').name + '-test'
   },
   api: {
     models: { },
@@ -12,7 +12,7 @@ module.exports = {
   config: {
     main: {
       spools: [
-        require('../dist').WinstonSpool
+        require('../../dist/index').WinstonSpool
       ]
     },
     log: {
