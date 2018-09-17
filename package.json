@@ -1,6 +1,6 @@
 {
   "name": "@fabrix/spool-winston",
-  "version": "1.1.0",
+  "version": "1.5.0",
   "description": "Spool Winston - Wintson logging for Fabrix.",
   "homepage": "https://fabrix.app",
   "author": "Fabrix-app Team <hello@fabrix.app>",
@@ -44,7 +44,7 @@
     "winston": "^3.0.0"
   },
   "devDependencies": {
-    "@fabrix/fabrix": "^1.1.4",
+    "@fabrix/fabrix": "^1.5.3",
     "@fabrix/lint": "^1.0.0-alpha.3",
     "@types/lodash": "^4.14.109",
     "@types/node": "~10.3.4",
@@ -57,7 +57,7 @@
     "typescript": "~2.8.1"
   },
   "peerDependencies": {
-    "@fabrix/fabrix": "^1.1.4"
+    "@fabrix/fabrix": "^1.5.3"
   },
   "engines": {
     "node": ">= 7.6.0"
